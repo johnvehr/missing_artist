@@ -2,6 +2,7 @@
 
 $grayMediumLight: #eaeaea;
 $grayText: #999;
+$titleRed: #E23E3E;
 
 /* universal */
 
@@ -93,7 +94,7 @@ a:hover {
   letter-spacing: -2px;
   margin-bottom: -30px;
   text-align: center;
-  color: #999;
+  color: $titleRed;
 }
 
 .webTitle {
@@ -136,3 +137,6 @@ a:hover {
   color: #E23E3E;
   }
 }
+
+.footerText {margin-right:10px;}
+.navbar .nav {bottom:75px;}

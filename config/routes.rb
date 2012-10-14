@@ -6,6 +6,7 @@ MissingArtist::Application.routes.draw do
   match '/web', to: 'static_pages#web'
   match '/about', to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
+  match '/services', to: 'static_pages#services'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
