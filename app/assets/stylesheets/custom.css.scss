@@ -74,9 +74,9 @@ a:hover {
 }
 
 .container-home {
-  background-color: #2C2C2C;
+  background-color: #FFF;
   margin-left: 55px;
-  margin-top: 45px;
+  margin-top: 80px;
   width: 932px;
   height: 524px;
   border-radius: 10px;
@@ -86,6 +86,10 @@ a:hover {
     margin-right:150px;
     margin-top: 25px;
     color: $grayText;
+    }
+    h1 {
+    float: left;
+    margin-top:22px;
     }
   }
 
@@ -140,3 +144,16 @@ a:hover {
 
 .footerText {margin-right:10px;}
 .navbar .nav {bottom:75px;}
+.meetTeam {position:relative; bottom:50px; float:right;margin-right:45px;}
+.contactUL {
+  position:relative;
+  float: left;
+  top: 120px;
+  right:550px;
+  ul{
+  list-style:none;
+  }
+  li {
+  color: #E63D3D;
+  }
+}
