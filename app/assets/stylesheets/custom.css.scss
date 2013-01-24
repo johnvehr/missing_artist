@@ -8,10 +8,19 @@ $titleRed: #E23E3E;
 
 html {
   overflow-y: scroll;
+  height: 100%;
+}
+
+header {
+  height:100%;
 }
 
 body {
-  padding-top: 60px;
+  height: 100%;
+}
+
+.container-header {
+  float:left;
 }
 
 /* footer */
@@ -74,9 +83,9 @@ a:hover {
 }
 
 .container-home {
-  background-color: #FFF;
+  background-color: #2C2C2C;
   margin-left: 55px;
-  margin-top: 80px;
+  margin-top: 45px;
   width: 932px;
   height: 524px;
   border-radius: 10px;
@@ -86,10 +95,6 @@ a:hover {
     margin-right:150px;
     margin-top: 25px;
     color: $grayText;
-    }
-    h1 {
-    float: left;
-    margin-top:22px;
     }
   }
 
@@ -141,19 +146,53 @@ a:hover {
   color: #E23E3E;
   }
 }
-
-.footerText {margin-right:10px;}
 .navbar .nav {bottom:75px;}
-.meetTeam {position:relative; bottom:50px; float:right;margin-right:45px;}
-.contactUL {
-  position:relative;
-  float: left;
-  top: 120px;
-  right:550px;
-  ul{
-  list-style:none;
+.underTitle{
+  margin-top:30px;
+  font-size:1.5em;
+  font-weight:normal;
+  color:$grayText;
+}
+.info {
+  margin-top:100px;
+  margin-left:45px;
+  color:$grayText;
+  li{
+    list-style:none;
+  span {
+    margin-left:40px;
+  }
+  }
+}
+
+.span3 {height:100%;}
+.span3Custom {
+  height:100%;
+  width:95px;
+  margin-left:60px;
+  background-color:white;
+  -webkit-box-shadow: 8px 6px 23px -2px black;
+}
+.span3Custom {
+  ul {
+  margin: 120px 0 9px 21px;
   }
   li {
-  color: #E63D3D;
+  list-style:none;
+  margin-top:33px;
+  margin-bottom:15px;
   }
+}
+.film{
+  background-image:url("/assets/film_ina.png") no-repeat;
+}
+.row-fluid {height: 100%;}
+.container-fluid {height: 100%;}
+.row-fluid .span10 {
+  position:relative;
+  left:653px;
+  bottom:500px;
+}
+hr {
+  width:211px;
 }
